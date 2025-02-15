@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+  
+  }
+  
+  body {
+    background:rgb(7, 6, 6);
+    background-size: auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw 90%;
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    animation: galaxy-move 60s linear infinite;
+  }
+  .container {
+    height: auto;
+    width:90vw 90%;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+  }
+  button {
+    background: #132c03;
+    border: none;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    
+  }
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(89, 3, 170, 0.9);
+  }

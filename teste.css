@@ -1,0 +1,45 @@
+h1{
+  text-align: center;
+
+}
+
+body {
+  background:rgb(7, 6, 6);
+  background-size: auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  animation: galaxy-move 60s linear infinite;
+}
+.container {
+  height: auto;
+  width:90vw;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+}
+button {
+  background: linear-gradient(45deg, #6b1db2, #1d1db2);
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+  
+}
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(124, 3, 3, 0.9);
+}
